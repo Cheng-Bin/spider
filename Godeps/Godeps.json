@@ -1,0 +1,6 @@
+{
+	"ImportPath": "github.com/chapin/spider",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v76",
+	"Deps": []
+}
