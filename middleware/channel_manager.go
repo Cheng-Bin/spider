@@ -17,10 +17,10 @@ type ChannelManagerStatus uint8
 type ChannelManager interface {
 
 	// Init channel.
-	Init(channelLen uint, reset bool)
+	Init(channelLen uint, reset bool) bool
 
 	// Close channel.
-	Close()
+	Close() bool
 
 	// ReqChan request channel
 	ReqChan() (chan base.Request, error)
