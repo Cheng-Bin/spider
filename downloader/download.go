@@ -8,11 +8,6 @@ type PageDownloader interface {
 	Download(req base.Request) (*base.Response, error)
 }
 
-// IDGenerator interface.
-type IDGenerator interface {
-	GetUint32() uint32
-}
-
 // PageDownloaderPool interface.
 type PageDownloaderPool interface {
 	Take() (PageDownloader, error)  // take a PageDownloader from pool.

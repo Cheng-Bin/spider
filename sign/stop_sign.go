@@ -1,4 +1,4 @@
-package middleware
+package sign
 
 // StopSign interface .
 type StopSign interface {
